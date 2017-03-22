@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tuition Admin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+     <link rel="icon" href="img/icon.png">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
+    <link href="css/my-styles.css" rel="stylesheet" media="screen">
+     <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet"> 
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+  <!-- Navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+ 
+     <!--  <div class="navbar-header"> -->
+      <div class="container">
+       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+       <!--<a class="pull-left" href="#"></a> -->
+       <img class="nav-img pull-left" src="img/grad1.png" alt="Tuition Admin">                
+       <div class="collapse navbar-collapse pull-right">
+             
+         <ul class="nav nav-pills">
+            <li class="home" onclick="navItemSelected(this)"><a href="index.html">Home</a></li>
+            <li><a href="about.html" onclick="navItemSelected(this)">About</a></li>
+            <li><a href="index.html #features" onclick="navItemSelected(this)">Features</a></li>
+            <li><a href="index.html #services" onclick="navItemSelected(this)">Services</a></li>
+            <li><a href=" index.html #pricingPlans" onclick="navItemSelected(this)">Plans</a></li>
+            <li><a href="contact-us.html" onclick="navItemSelected(this)">Contact</a></li>
+            <li><a data-toggle="modal" href="#registerModal">Try Demo</a></li>    
+            <li><a data-toggle="modal" href="#log-in">LogIn</a></li>  
+                
+           </ul>
+        </div> 
+
+     </div> 
+    </div>
+  <!-- End Navbar -->
+ <div class="modal fade" id="log-in">
+    <div class="modal-dialog">
+      
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;          
+          </button>
+          <h4 class="modal-title"> Log In</h4>
+          <div class="modal-body">
+             <form class="form-inline">
+               <div class="form-group">
+                 <label class="sr-only" for="contact-name">Username</label>
+                 <input type="text" class="form-control" id="username" placeholder="UserName"><br>
+                 <label class="sr-only" for="contact-institution">Password</label><br>
+                 <input type="Password" class="form-control" id="password" placeholder="Password"><br>                 
+               </div>
+               <br><br>
+               <button type="submit" class="btn btn-success" data-dismiss="modal"> Log In </button>
+             </form>          
+          </div>
+        </div>
+      </div>
+    
+    </div>
+  </div>  
+
+  <!-- Modal Pop up window for 'Demo Registration'-->
+  <div class="modal fade" id="registerModal">
+    <div class="modal-dialog">
+      
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;          
+          </button>
+          <h4 class="modal-title"> Wanna try free demo ??</h4>
+          <div class="modal-body">
+             <form class="form-inline">
+               <div class="form-group">
+                 <label class="sr-only" for="name">Name</label>
+                 <input type="text" class="form-control" id="name" placeholder="Name"><br>
+                 <label class="sr-only" for="Institution">Institution</label><br>
+                 <input type="text" class="form-control" id="institute" placeholder="Institution"><br>
+                 <label class="sr-only" for="email">Email</label><br>
+                 <input type="text" class="form-control" id="email" placeholder="Email "><br>
+               </div>
+               <br><br><br>
+               <button type="submit" class="btn btn-success" data-dismiss="modal"> OK </button>
+             </form>          
+          </div>
+        </div>
+      </div>
+    
+    </div>
+  </div>  
+  <!-- End Modal -->  
+  
+  <!-- Main Content -->  
+   			 <div class="container"> 
+
+                <section id="institute-information" class="main-content">                                  
+                           
+                         <div class="row">
+
+                             <div class="col-sm-12">
+                                    <h2> Loren Ipsum</h2>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,mpden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.1</p>
+                                     <ul>
+                                      <li><span class="glyphicon glyphicon-download-alt">&nbsp;</span>Msit amet, consecte</li>
+                                      <li><span class="glyphicon glyphicon-download-alt">&nbsp;</span>Vivamus nec orci</li>
+                                      <li><span class="glyphicon glyphicon-download-alt">&nbsp;</span>Phasellus lacinia feugi</li>
+                                      </ul>
+                            
+                                    <hr class="line"/>
+                            </div>
+                        </div>            
+                </section>
+                 <section id="vision" class="main-content">
+                        <div class="row">
+                             <div class="col-sm-12">
+
+                                    <h2> Lorem </h2>
+                                    <p>
+                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque feugiat vulputate aliquet. Aenean aliquam ligula nibh, a rutrum felis aliquam ut. Integer nec lectus eget leo ultricies hendrerit. Vivamus nec orci turpis. Phasellus ac fermentum orci. Etiam vestibulum facilisis ligula a tempus. Suspendisse volutpat nunc in dui commodo sagittis. Phasellus lacinia feugiat augue non bibendum. Etiam tempor risus at elit consequat, et feugiat sapien faucibus.</p>                                
+                                   
+                                     <hr class="line"/>
+                                </div>
+                     
+
+                      </div>
+                </section>
+                <section id="partner-information" class="partner-information">
+                  <div class="row">
+
+                             <div class="col-sm-12">
+                                    <h2> Lorem come from</h2>
+                                    <p>
+                                      Nam feugiat ex quis nisi facilisis semper. Nullam sollicitudin bibendum orci sit amet suscipit. Nulla facilisi. Phasellus mattis molestie nunc, sit amet gravida erat tincidunt eget. Nunc condimentum vestibulum magna, ac gravida velit interdum nec. Fusce a gravida dolor, vitae congue sem. Maecenas cursus, purus ac maximus feugiat, nisi est convallis augue, vitae suscipit enim lectus ac sapien. Morbi est tellus, malesuada a odio quis, aliquet blandit tortor. Proin sed lorem lobortis velit dignissim ultrices. Nunc vehicula imperdiet lacus, vitae rhoncus est euismod eget. Integer finibus, erat molestie egestas ele</p>
+                                     <hr class="line"/> 
+
+                                </div>
+                            </div>
+                            </section> 
+            <!-- End container div -->
+            </div>
+
+
+               <div class="container">       
+                      <section id="MediaAndPress" class="main-content">                                  
+                         <div class="row">
+
+                             <div class="col-sm-12">
+                                    <h2> Vehicula imp</h2>
+                                    <p>
+                                     Donec bibendum gravida pulvinar. Curabitur vitae est sed tortor elementum bibendum. Sed sit amet mi eu purus consequat efficitur. Sed nec diam sagittis, viverra leo dictum, luctus ante. Donec mollis luctus mauris quis porta. Mauris fermentum justo mi, a finibus urna rutrum et. Vestibulum tincidunt eu ex vel condimentum. Praesent est ante, ornare eu tempor sit amet, lacinia sit amet mi.</a>
+
+                                    </p>
+                                     <hr class="line"/> 
+                                </div>
+                     
+
+                      </div>
+                      </section>
+                      <section id="careers" class="main-content">
+                        <div class="row">
+
+                             <div class="col-sm-12">
+                                    <h2> Phasellus matt</h2>
+                                    <p>
+                                      am feugiat ex quis nisi facilisis semper. Nullam sollicitudin bibendum orci sit amet suscipit. Nulla facilisi. Phasellus mattis molestie nunc, sit amet gravida erat tincidunt eget. Nunc condimentum vestibulum magna, ac gravida velit interdum nec. Fusce a gravida dolor, vitae congue sem. Maecenas cursus, purus ac maximus feugiat, nisi est convallis augue, vitae suscipit enim lectus ac sapien. Morbi est tellus, malesuada a odio quis, aliquet blandit tortor. Proin sed lorem lobortis velit dignissim ultrices. Nunc vehicula imperdiet lacus, vitae rhoncus est euismod eget. Integer finibus, erat molestie egestas eleifend, velit </a>
+                                      <br><br>
+                                    </p>
+                                     
+                                </div>
+                     
+
+                  </div>
+                  </section>
+ 
+ </div>
+  <!-- Footer -->
+      <footer class="main-footer">
+   <div class="container">
+      <div class="row">
+    
+        <div class="col-sm-6">
+          <div id="social-links">
+          <table>
+            <tr>
+              <td><i style="color: white" class="fa fa-envelope fa-2x" aria-hidden="true"></i></td>
+              <td><i style="color: white"class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></td>
+              <td><i style="color: white"class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></td>
+              <td><i style="color: white"class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></td>
+              <td><i style="color: white" class="fa fa-instagram fa-2x" aria-hidden="true"></i></td>
+              <td> <i style="color: white" class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></td>
+            </tr>
+          </table>
+              </div>     
+             
+        </div>
+
+          <div class="col-sm-3">
+          
+            <ul class="link-list">
+             <li><a href="index.html">Loremfgre </a></li>
+              <li><a href="#features">Ipsumgse </a></li>
+              <li><a href="#services">Dolor</a></li>
+              <li><a href="#pricingPlans">Sitamet</a></li>  
+              <li><a href="index.html">Loremfgre </a></li>
+              <li><a href="#features">Ipsumgse </a></li> 
+            </ul>
+          
+          </div>
+          <div class="col-sm-3">
+            <ul class="link-list">
+              <li><a href="index.html">Loremfgre </a></li>
+              <li><a href="#features">Ipsumgse </a></li>
+              <li><a href="#services">Dolor</a></li>
+              <li><a href="#pricingPlans">Sitamet</a></li>  
+              <li><a href="index.html">Loremfgre </a></li>
+              <li><a href="#features">Ipsumgse </a></li>
+            </ul>
+          </div>   
+
+       </div>
+     </div>
+  </footer>     
+  
+  <div class="copyright-section"> 
+    <div class="container">
+      <div class="row">
+          <div class="col-sm-12">
+              <p class="copyright-text"> Copyright &copy; 2016 All rights reserved. </p>
+              
+          </div>     
+      </div>    
+    </div>       
+  </div>
+ <!-- End Footer -->   
+      
+  <!-- Javascript and jQuery -->    
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type='text/javascript' src="http://imsky.github.io/holder/holder.js"></script>
+    <script src="js/jquery-functions.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script>
+    $(document).ready(function()
+      { 
+          $('#features-parents').hide();
+          $('#features-teachers').hide();
+          $('#features-administrators').hide();
+          $('#features-students').hide();
+      }
+    )
+    </script>
+ 
+  </body>
+</html>
